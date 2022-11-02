@@ -5,7 +5,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	min-height: 100vh;
-	background: linear-gradient(to right, #333399, #ff00cc);
+	background: linear-gradient(to right, rgb(64, 158, 127), rgb(124, 124, 151), #9b2383);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,7 +25,7 @@ body {
 	background: rgba(255, 255, 255, .1);
 	inset: 0;
 	border-radius: 10px;
-/* 	transform: rotate(-4deg); */
+	transform: rotate(-4deg);
 	z-index: -1;
 }
 
@@ -35,7 +35,7 @@ body {
 	background: rgba(255, 255, 255, .1);
 	inset: 0;
 	border-radius: 10px;
-/* 	transform: rotate(4deg); */
+	transform: rotate(4deg);
 	z-index: -1;
 }
 
@@ -168,6 +168,10 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: calc(1rem * .8);
+}
+
+#text {
+	margin-bottom: 18px;
 }
 
 .login-card-social-btns {
